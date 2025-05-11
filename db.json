@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john123@gmail.com",
+      "status": "default"
+    },
+    {
+      "id": 2,
+      "name": "Alex Bek",
+      "email": "alex123@gmail.com",
+      "status": "admin"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Barberton Daisy",
+      "img": "/p1.png",
+      "price": "119.00",
+      "size": "Large",
+      "category": "House Plants"
+    },
+    {
+      "id": "2",
+      "name": "Fin Wing Begonia",
+      "img": "/p2.png",
+      "price": "169.00",
+      "size": "Small",
+      "category": "Potter Plants"
+    },
+    {
+      "id": "3",
+      "name": "Japan Violet",
+      "img": "/p7.png",
+      "price": "199.00",
+      "size": "Medium",
+      "category": "Seeds"
+    },
+    {
+      "id": "4",
+      "name": "Flich Spider Lily",
+      "img": "/p4.png",
+      "price": "129.00",
+      "size": "Large",
+      "category": "Small Plants"
+    },
+    {
+      "id": "5",
+      "name": "Blushing Bromeliad",
+      "img": "/p5.png",
+      "price": "139.00",
+      "size": "Small",
+      "category": "Gardening"
+    },
+    {
+      "id": "6",
+      "name": "Angel Wing Begonia",
+      "img": "/p6.png",
+      "price": "169.00",
+      "size": "Small",
+      "category": "Potter Plants"
+    },
+    {
+      "id": "7",
+      "name": "African Violet",
+      "img": "/p7.png",
+      "price": "188.00",
+      "size": "Medium",
+      "category": "Seeds"
+    },
+    {
+      "id": "8",
+      "name": "Beach Spider Lily",
+      "img": "/p8.png",
+      "price": "129.00",
+      "size": "Large",
+      "category": "Small Plants",
+      "sale": true
+    },
+    {
+      "id": "9",
+      "name": "Lowish Bromeliad",
+      "img": "/p9.png",
+      "price": "139.00",
+      "size": "Small",
+      "category": "Gardening"
+    },
+    {
+      "id": "10",
+      "name": "larberton Daisy",
+      "img": "/p5.png",
+      "price": "119.00",
+      "size": "Large",
+      "category": "House Plants"
+    },
+    {
+      "id": "11",
+      "name": "Grow Spider Plant",
+      "img": "/p4.png",
+      "price": "169.00",
+      "size": "Small",
+      "category": "House Plants"
+    },
+    {
+      "id": "12",
+      "name": "Belar Violet",
+      "img": "/p7.png",
+      "price": "199.00",
+      "size": "Medium",
+      "category": "Accessories"
+    },
+    {
+      "id": "13",
+      "name": "CLap Spider Lily",
+      "img": "/p2.png",
+      "price": "129.00",
+      "size": "Large",
+      "category": "Succulents",
+      "sale": true
+    },
+    {
+      "id": "14",
+      "name": "Polsh Bromeliad",
+      "img": "/p1.png",
+      "price": "139.00",
+      "size": "Small",
+      "category": "Big Plants"
+    },
+    {
+      "id": "15",
+      "name": "Wern Begonia",
+      "img": "/p6.png",
+      "price": "169.00",
+      "size": "Small",
+      "category": "Potter Plants"
+    },
+    {
+      "id": "16",
+      "name": "Mexio Violet",
+      "img": "/p8.png",
+      "price": "199.00",
+      "size": "Medium",
+      "category": "Seeds",
+      "sale": true
+    },
+    {
+      "id": "17",
+      "name": "United Nursery Live",
+      "img": "/p7.png",
+      "price": "129.00",
+      "size": "Large",
+      "category": "Small Plants"
+    },
+    {
+      "id": "18",
+      "name": "Pachira aquatica",
+      "img": "/p9.png",
+      "price": "139.00",
+      "size": "Large",
+      "category": "Big Plants"
+    }
+  ]
+}

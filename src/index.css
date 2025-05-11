@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "Cera";
+  src: url(../fonts/Cera\ Pro\ Black.otf) format("opentype");
+}
+@font-face {
+  font-family: "Cera2";
+  src: url(../fonts/Cera\ Pro\ Medium.otf) format("opentype");
+}
+@font-face {
+  font-family: "Cera3";
+  src: url(../fonts/Cera\ Pro\ Bold.otf) format("opentype");
+}
+@font-face {
+  font-family: "Cera4";
+  src: url(../fonts/Cera\ Pro\ Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "CeraMedium";
+  src: url(../fonts/Cera\ Pro\ Regular.otf) format("opentype");
+}
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cera2;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.p-text {
+  font-family: "CeraMedium";
+  @apply text-[16px] text-[#3D3D3D];
+}
+.p-text2 {
+  font-family: "Cera2";
+  @apply text-[18px] text-[#3D3D3D];
+}
+.p-title {
+  font-family: "Cera";
+  @apply text-[30px] text-[#3D3D3D];
+}
+.p-silent {
+  font-family: "Cera4";
+  @apply text-[15px] text-[#727272];
+}
+.p-bold {
+  font-family: "Cera";
+  @apply leading-16 uppercase;
+}
+.p-active {
+  font-family: "Cera";
+  @apply text-[15px] text-[#46A358] border-b-2 border-[#46A358];
+}
+
+.p-active2 {
+  font-family: "Cera3";
+  @apply text-[16px] text-[#46A358];
+}
+.btn {
+  @apply bg-[#46A358] text-white px-4 py-1.5 rounded-md cursor-pointer;
+}
+
+.btn-filter {
+  @apply border border-[#46A46C] w-full h-10 rounded-md cursor-pointer hover:bg-[#46A46C] hover:text-white transition-all;
+}
+
+.navbar {
+  @apply flex justify-between items-center py-3 pt-4 border-b border-[#359c4a54];
+}
+.ul {
+  @apply flex gap-10 max-lg:hidden;
+}
+
+.mt-10 {
+  margin-top: 40px;
+}
+.mt-20 {
+  margin-top: 80px;
+}
+.mt-5 {
+  margin-top: 12px;
+}
+
+.px-5 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.py-10{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.py-5 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
