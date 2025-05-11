@@ -4,7 +4,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 function ProductItem({ filteredData, postPage, lastIndex }) {
   return (
     <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-3">
-      {filteredData && filteredData.length > 0 ? (
+      {filteredData && filteredData?.length > 0 ? (
         filteredData.slice(postPage, lastIndex).map((product) => (
           <div
             key={product.id}
