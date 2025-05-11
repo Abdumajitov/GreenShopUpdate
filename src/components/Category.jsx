@@ -28,7 +28,7 @@ function Category() {
   );
 
   const categoryCounts = categorys.reduce((acc, cat) => {
-    const count = originalData.filter((item) => item.category === cat).length;
+    const count = originalData?.filter((item) => item.category === cat).length;
     acc[cat] = count;
     return acc;
   }, {});
