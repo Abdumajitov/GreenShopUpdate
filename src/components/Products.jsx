@@ -43,7 +43,7 @@ function Products() {
         </div>
         <div className="">
           <CustomPagination
-            count={Math.ceil(filteredData.length / lowPage)}
+            count={Math.ceil(filteredData?.length / lowPage)}
             page={page}
             setPage={setPage}
           />
